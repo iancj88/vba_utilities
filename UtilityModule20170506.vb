@@ -1,6 +1,6 @@
 Option Explicit
 Option Base 1
-Public Declare Function GetTickCount Lib "kernel32.dll" () As Longsd
+Public Declare PtrSafe Function GetTickCount Lib "kernel32.dll" () As Long
 
 ''==============================================================================
 '' Program:     FindColNum
